@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,5 +49,35 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void spotifyStreamerButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'Spotify Streamer' App", Toast.LENGTH_LONG).show();
+    }
+
+    public void scoresAppButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'Scores App\'", Toast.LENGTH_LONG).show();
+    }
+
+    public void libraryAppButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'Library App\'", Toast.LENGTH_LONG).show();
+    }
+
+    public void buidItBiggerButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'Build It Bigger\' App", Toast.LENGTH_LONG).show();
+    }
+
+    public void xyzReaderButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'XYZ Reader\' App", Toast.LENGTH_LONG).show();
+    }
+
+    public void capstoneButtonPressed(View view)
+    {
+        Toast.makeText(getApplicationContext(), "This button will launch my \'Capstone\' App", Toast.LENGTH_LONG).show();
     }
 }
